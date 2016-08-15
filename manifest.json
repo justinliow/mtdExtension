@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "CU MTD Bus Tracker",
+  "description": "This extension will determine what buses are coming to each stop",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
